@@ -1,0 +1,56 @@
+/* styles/restaurant.css */
+.dropdown-menu-custom {
+    max-width: 70px;    /* Further reduced max-width to minimize space */
+    width: auto;        /* Allow width to auto-adjust */
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    padding: 0.5rem;    /* Keep padding for better aesthetics */
+    margin: 0;          /* Remove extra margins */
+    white-space: nowrap; /* Prevent wrapping of items */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.carousel-item img {
+    max-height: 520px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensures the image covers the area without distorting */
+    width: 100%; /* Ensure the image takes up the full width of the carousel */
+}
+
+.fixed-top-custom {
+    position: fixed;
+    width: 100%;
+    z-index: 1030;
+    background-color: #343a40; /* Same color as navbar */
+}
+
+.welcome-section {
+    margin-top: -15px; /* Adjusted value to remove any gap */
+    margin-bottom: -20px; /* Reduced negative margin to remove gap with the carousel */
+    padding-top: 5px; /* Added padding at the top to create more space above */
+    padding-bottom: 40px; /* Ensure the section has enough space at the bottom */
+}
+
+/* Button custom styles */
+.btn-custom {
+    background-color: #6c757d; /* Adjust to the grey color on your page */
+    color: white;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #5a6268; /* Slightly darker grey for hover effect */
+    color: white;
+}
+
+/* Sticky footer styles */
+.sticky-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40; /* Match the background color of the navbar */
+    padding: 10px 0;
+}
+
+/* Optional: Ensure footer text doesn't overlap with the page content */
+body {
+    padding-bottom: 60px; /* Adjust based on the height of the footer */
+}
